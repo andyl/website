@@ -1,0 +1,20 @@
+title: andrew-leak.com
+description: "Andrew Leak"
+author: "Andrew Leak"
+exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
+gems: ["jekyll-paginate", "jekyll-feed"]
+
+url: https://andrew-leak.com
+
+permalink: /:categories/:year/:month/:title/
+paginate_path: "/blog/page:num/"
+paginate: 10
+
+email: andy@r210.com
+github_username: andyl
+twitter_username: akleak 
+
+source_url: "https://github.com/andyl/website/blob/master/"
+
+license: "CC-by"
+license_url: https://creativecommons.org/licenses/by/4.0/

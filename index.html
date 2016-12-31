@@ -1,0 +1,9 @@
+---
+layout: page
+description: "A website by Christopher Adams"
+---
+{% for post in paginator.posts %}
+{% include post.html post=post %}
+<hr/>
+{% endfor %}
+{% include pagination.html %}
